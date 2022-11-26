@@ -1,0 +1,162 @@
+#header {
+	width: 100%;
+	height: 30px;
+	position:relative;
+	left: 0px;
+	top: 0px;
+  }
+  .logo-placer-left,
+  .logo-placer-right {
+	  height: 30px;
+  }
+  .logo-placer-left {
+	  display: inline-block;
+	  margin-left: 20px;
+	  box-sizing: border-box;
+	  padding: 3px;
+  }
+  .heading{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .logo-placer-right {
+	  float: right;
+	  margin: 4px 10px;
+  }
+  .logo {
+	  display: block;
+	  height: 100%;
+	  /*margin: 0 auto;*/
+  }
+  #header,
+  #menubar {
+      border-bottom: 1px solid;
+  }
+  #footer {
+      border-top: 1px solid;
+  }
+  #header,
+  #footer,
+  #menubar {
+      border-color: rgba(0,0,0,0.12);
+      background-color: #F5F5F5;
+  }
+  
+  .project {
+	  display: inline-block;
+	  vertical-align: top;
+  }
+  @media (min-width: 550px) {
+	  #header {
+		  height: 50px
+	  }
+	  .logo-placer-left,
+	  .logo-placer-right {
+		  height: 50px;
+	  }
+	  .logo-placer-left {
+		  width: 260px;
+	  }
+	  .logo-placer-right {
+		  margin: 12px 25px;
+	  }
+	  .project {
+		  font-size: 20px;
+		  margin-top: 11px;
+	  }
+  }
+  @media(min-width: 670px) {
+	  .logo-placer-right::before{
+      font-style: italic;
+		  content: "Please provide us with your ";
+	  }
+  }
+  .disclaimer {
+    padding: 0 10px;
+}
+.Footer {
+    font-style: italic;
+}
+#footer {
+  position:fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 34px;
+
+  display: flex;
+  align-items: center;
+}
+
+
+#Search-container{
+  width: 100%;
+	height: 50px;
+	position: fixed;
+	left: 0px;
+	top: 50px;
+  border-bottom: 1px solid;
+  border-color: rgba(0,0,0,0.12);
+  background-color: #F5F5F5;
+  padding: 5px 25px 5px 10px;
+}
+.search{
+  
+  display: inline-block;
+  outline: none;
+  padding:5px;
+  width:600px;
+}
+
+@media (min-width: 700px) {
+  /* .search-box {
+      width: 300px;
+      padding:5px;
+  } */
+}
+
+.my-epc{
+  float: right;
+}
+.container-search{
+  width: 100%;
+	height: 90px;
+	position:relative;
+	left: 0px;
+	top: 0px;
+
+}
+.result-pagination{
+  position:fixed;
+  bottom: 50px;
+  width: 100%;
+  left:1000px;
+  height: 34px;
+}
+#result-filter{
+  border-left: 1px solid;
+  height: 450px;
+  position:absolute;
+  left: 25%;
+  top: 70px;
+}
+#filter-primary{
+  position:fixed;
+  padding: 4px 16px 2px 4px;
+  left:5%;
+
+}
+/* #filter-secondary{
+  position:fixed;
+  bottom: 200px;
+  left:5%;
+} */
+
+.h3-header{
+font-family: 'Inter';
+font-style:italic;
+font-weight: 600;
+font-size: 25px;
+line-height: 10px;
+text-decoration: underline;
+}
